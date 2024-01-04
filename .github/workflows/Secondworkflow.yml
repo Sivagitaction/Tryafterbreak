@@ -1,0 +1,7 @@
+name: sample
+on: workflow_dispatch
+jobs:
+  Number1:
+    Steps:
+    - name: try
+      run: echo"success"

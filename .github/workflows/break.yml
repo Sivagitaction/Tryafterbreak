@@ -5,8 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print
-        run: echo"printtt"
+        run: echo "printtt"
       - name: Print2
         run: echo "print2"
       - name: bye
-        run: echo"bye"
+        run: echo "bye"

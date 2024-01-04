@@ -2,6 +2,7 @@ name: sample
 on: workflow_dispatch
 jobs:
   Number1:
-    Steps:
+    runs-on: ubuntu-latest
+    steps:
     - name: try
       run: echo"success"

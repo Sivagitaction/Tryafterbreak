@@ -4,9 +4,9 @@ jobs:
   Firsst-job:
     runs-on: ubuntu-latest
     steps:
-      - name1: print
+      - name: print
         run: echo"printtt"
-      - name2: Print2
+      - name: Print2
         run: echo "print2"
-      - name3: bye
+      - name: bye
         run: echo"bye"

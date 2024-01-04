@@ -1,0 +1,12 @@
+name:break
+on:workflow_dispatch
+jobs:
+ Firsst-job:
+ runs-on:ubuntu-latest
+ steps:
+  -name1: print
+   run: echo"printtt"
+  -name2: Print2
+   run: echo "print2"
+  -name3: bye
+   run: echo"bye"

@@ -1,0 +1,11 @@
+name: multi
+on: workflow_dispatch
+jobs:
+  FirstMulti:
+    runs-on: ubuntu-latest
+    steps:
+      - name: multi below
+        run: |
+          echo "first"
+          echo "second"
+          echo "third"
